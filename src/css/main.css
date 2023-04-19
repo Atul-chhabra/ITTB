@@ -2053,7 +2053,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 10px;
 }
 .banner-area {
-  background: url(../img/banner-bg.jpg) right;
+  background: url('https://mcdn.wallpapersafari.com/medium/15/68/KugrJZ.jpg') right;
   background-size: cover;
 }
 .banner-area .overlay-bg {
