@@ -2,6 +2,14 @@
   background-color: #f7631b;
   color: #fff;
 }
+.row>* {
+  flex-shrink: 0;
+  width: auto;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+  margin-top: var(--bs-gutter-y);
+}
 ::selection {
   background-color: #f7631b;
   color: #fff;
@@ -1719,7 +1727,7 @@ h6 {
   padding: 9px 26px;
 }
 .main-menu {
-  padding-bottom: 20px;
+  padding-bottom: 8px;
   padding-top: 20px;
   border-bottom: 1px solid #39353e;
 }
