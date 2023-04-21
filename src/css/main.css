@@ -2060,13 +2060,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-title h1 {
   margin-bottom: 10px;
 }
-.banner-area {
-  background: url('https://mcdn.wallpapersafari.com/medium/15/68/KugrJZ.jpg') right;
-  background-size: cover;
-}
-.banner-area .overlay-bg {
-  background-color: rgba(4, 9, 30, 0.8);
-}
+
 @media (max-width: 767px) {
   .fullscreen {
     height: 700px !important;
