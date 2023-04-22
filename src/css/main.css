@@ -442,6 +442,10 @@ th {
 .float-right {
   float: right;
 }
+.text {
+  letter-spacing: 0.06em;
+  font-weight: 500;
+}
 .text-italic {
   font-style: italic;
 }
@@ -2114,7 +2118,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 32%;
 }
 .feature-area {
-  position: absolute;
   width: 100%;
   margin-top: -62px;
 }
@@ -2163,6 +2166,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     background: #f7631b;
   }
 }
+
 .popular-course-area .owl-dots {
   text-align: center;
   bottom: 5px;

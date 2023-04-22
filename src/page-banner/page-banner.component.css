@@ -15,6 +15,107 @@
 }
 .form-container {
   width: 20%;
-  
 }
 
+.popular-course-area {
+  margin-top: 20px;
+  background: #f3f3f3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.courses {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+}
+.course {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #fff;
+  padding: 35px 30px 20px;
+  position: relative;
+  border-radius: 9px;
+  box-shadow: 0 0 12px 4px #dedede;
+  overflow: hidden;
+  width: 20%;
+  min-height: 300px;
+  height: auto;
+}
+.course-title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 5px;
+  color: #242c2e;
+  text-align: center;
+}
+.course-desc {
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.enroll-button {
+  margin: auto;
+  display: block;
+  text-transform: uppercase;
+  width: 221px;
+}
+button {
+  outline: none !important;
+}
+.button2 {
+  border: 1px solid #fa872a;
+  color: #fa872a;
+  background: transparent;
+  width: 100%;
+  border-radius: 4px;
+  height: 46px;
+}
+.button2:hover {
+  background-color: #fa872a;
+  color: white;
+}
+
+
+.achievements-section {
+  background: #fff;
+    padding: 50px 0;
+    width: 80%;
+    margin: auto;
+}
+.acheivements {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.acheivement {
+  border-radius: 8px;
+  border-top: 4px solid transparent;
+  background-color: #f4faff;
+  box-shadow: 0 13px 21px 0 #db0000 0 13px 16px 0 red;
+  padding: 25px 10px;
+  width: 205px;
+  height: 157px;
+  transition: all .2s ease-out;
+  will-change: transform;
+}
+.acheivement p {
+  font-size: 17px;
+  color: #252c2d;
+  margin-top: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+.acheivement h4 {
+  font-size: 17px;
+    color: #252c2d;
+    font-weight: 700;
+    margin: 0 auto;
+    padding-bottom: 0;
+    text-align: center;
+}
