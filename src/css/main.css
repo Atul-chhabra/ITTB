@@ -2106,7 +2106,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #fff;
   color: #f7631b;
 }
+.feature-container {
+  display: flex;
+  justify-content: space-between;
+}
+.feature-container > div {
+  width: 32%;
+}
 .feature-area {
+  position: absolute;
+  width: 100%;
   margin-top: -62px;
 }
 .single-feature {

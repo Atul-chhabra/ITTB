@@ -1,7 +1,15 @@
-/* .banner-area {
-  background: url(https://raw.githubusercontent.com/Atul-chhabra/angular-9gxojg/main/src/asset/image/banner-image.jpg);
-  background-size: cover;
-}
-.banner-area .overlay-bg {
+.banner-area {
   background-color: rgba(4, 9, 30, 0.8);
-} */
+    height: 400px;
+}
+.banner-content {
+  position: absolute;
+  top: 10%;
+  left: 3%;
+  width: 50%;
+}
+
+.banner-content > p {
+  color: rgb(183, 187, 170)
+}
+
