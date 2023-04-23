@@ -1722,9 +1722,7 @@ h6 {
   .header-top .header-top-right a .lnr {
     display: inline-block;
   }
-  .header-top .header-top-right a .text {
-    display: none;
-  }
+
 }
 .top-head-btn {
   background: #f7631b;
@@ -1980,8 +1978,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 .primary-btn {
   background: #f7631b;
   line-height: 42px;
-  padding-left: 30px;
-  padding-right: 30px;
   border: none;
   color: #fff;
   display: inline-block;
@@ -1992,8 +1988,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   cursor: pointer;
-  position: relative;
+  padding: 0px 30px;
+  border-radius: 16px;
+  margin-right:20px
 }
+.primary-btn:hover {
+  border: 1px solid #0093d8 !important;
+  background: transparent !important;
+}
+
 .primary-btn:focus {
   outline: none;
 }
@@ -2015,17 +2018,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   right: 20px;
 }
-.primary-btn.white {
-  border: 1px solid #fff;
-  color: #fff;
-}
-.primary-btn.white span {
-  color: #fff;
-}
-.primary-btn.white:hover {
-  background: #fff;
-  color: #f7631b;
-}
+
 .primary-btn.white:hover span {
   color: #f7631b;
 }
@@ -2103,10 +2096,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 600;
   font-size: 14px;
 }
-.banner-content .primary-btn:hover {
-  background-color: #fff;
-  color: #f7631b;
-}
+
 .feature-container {
   display: flex;
   justify-content: space-between;
@@ -2892,11 +2882,7 @@ dl.toggle.time-line:before {
 .courses-page .primary-btn {
   border: 1px solid transparent;
 }
-.courses-page .primary-btn:hover {
-  background: transparent;
-  border-color: #f7631b;
-  color: #f7631b;
-}
+
 .left-contents .jq-tab-wrapper {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -2984,10 +2970,7 @@ dl.toggle.time-line:before {
   background: #fff;
   color: #222;
 }
-.left-contents .course-list li .primary-btn:hover {
-  background: #f7631b;
-  color: #fff;
-}
+
 @media (max-width: 414px) {
   .left-contents .course-list li {
     font-size: 8px;
@@ -3136,11 +3119,7 @@ dl.toggle.time-line:before {
 .event-page-lists .primary-btn {
   border: 1px solid transparent;
 }
-.event-page-lists .primary-btn:hover {
-  color: #f7631b;
-  border-color: #f7631b;
-  background: transparent;
-}
+
 .event-details-area .details-content h4 {
   margin: 20px 0px;
 }
@@ -3274,11 +3253,7 @@ dl.toggle.time-line:before {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
-.blog-home-banner .primary-btn:hover {
-  background: transparent;
-  border-color: #fff;
-  color: #fff;
-}
+
 .blog-home-banner .overlay-bg {
   background: rgba(0, 0, 0, 0.5);
 }
@@ -3427,10 +3402,7 @@ dl.toggle.time-line:before {
   transition: all 0.3s ease 0s;
   border-radius: 0px !important;
 }
-.post-content-area .single-post .primary-btn:hover {
-  background: #f7631b !important;
-  color: #fff !important;
-}
+
 .posts-list .posts-title h3 {
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -3961,11 +3933,7 @@ dl.toggle.time-line:before {
   color: #fff;
   font-weight: 600;
 }
-.comment-form .primary-btn:hover {
-  background: transparent;
-  border-color: #f7631b !important;
-  color: #f7631b !important;
-}
+
 .contact-page-area {
   background: #f9f9ff;
 }

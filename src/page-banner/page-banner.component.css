@@ -16,7 +16,14 @@
 .form-container {
   width: 20%;
 }
+.btns {
+  display: flex;
+}
 
+
+.banner-content .btn2 {
+  display: none;
+}
 .popular-course-area {
   margin-top: 20px;
   background: #f3f3f3;
@@ -25,7 +32,6 @@
 }
 .courses {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
   width: 90%;
   margin: auto;
@@ -34,15 +40,16 @@
 .course {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+ 
   background: #fff;
   padding: 35px 30px 20px;
   position: relative;
   border-radius: 9px;
   box-shadow: 0 0 12px 4px #dedede;
   overflow: hidden;
-  width: 20%;
+  width: 30%;
   min-height: 300px;
+  margin: 10px;
   height: auto;
 }
 .course-title {
@@ -65,6 +72,7 @@
   text-transform: uppercase;
   width: 221px;
 }
+
 button {
   outline: none !important;
 }
@@ -176,6 +184,7 @@ justify-content: space-between;
   .Page-banner {
     flex-direction: column;
     padding: 10px;
+    height: 350px;
   }
   .banner-area {
     width: 100%;
@@ -194,10 +203,14 @@ justify-content: space-between;
   }
 
   .banner-content .primary-btn {
-    padding: 15px;
+    padding: 10px;
     border-radius: 20px;
   }
 
+  .banner-content .btn2 {
+    display: block;
+    margin-top: 10px;
+  }
   .form-container {
     display: none;
   }
@@ -213,6 +226,7 @@ justify-content: space-between;
   }
   .courses {
     flex-direction: column;
+  
   }
   .course {
     width: 100%;
