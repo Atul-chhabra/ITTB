@@ -124,8 +124,10 @@ button {
 
 
 @media (max-width:920px) {
+
   .Page-banner {
     padding: 18px;
+    height: 450px;
   }
   .banner-area {
     width: 70%;
@@ -144,9 +146,6 @@ button {
   .banner-content .primary-btn {
     padding: 10px;
     border-radius: 16px;
-  }
-  .feature-area {
-    
   }
   .feature-container {
     flex-wrap: wrap;

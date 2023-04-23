@@ -2065,11 +2065,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 10px;
 }
 
-@media (max-width: 767px) {
-  .fullscreen {
-    height: 700px !important;
-  }
-}
+
 .banner-content {
   text-align: left;
 }
@@ -2095,6 +2091,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 45px;
   }
 }
+
 @media (max-width: 480px) {
   .banner-content h1 {
     font-size: 32px;
