@@ -20,7 +20,7 @@
   display: flex;
 }
 
-.btns> .btn2 {
+.btns > .btn2 {
   display: none !important;
 }
 .popular-course-area {
@@ -39,7 +39,7 @@
 .course {
   display: flex;
   flex-direction: column;
- 
+
   background: #fff;
   padding: 35px 30px 20px;
   position: relative;
@@ -88,12 +88,11 @@ button {
   color: white;
 }
 
-
 .achievements-section {
   background: #fff;
-    padding: 50px 0;
-    width: 80%;
-    margin: auto;
+  padding: 50px 0;
+  width: 80%;
+  margin: auto;
 }
 .acheivements {
   display: flex;
@@ -111,27 +110,22 @@ button {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
- 
 }
 .acheivement p {
   font-size: 17px;
   color: #252c2d;
   margin-top: 15px;
   font-weight: 400;
-
 }
 .acheivement h4 {
   font-size: 17px;
-    color: #252c2d;
-    font-weight: 700;
-    margin: 0 auto;
-    padding-bottom: 0;
-
+  color: #252c2d;
+  font-weight: 700;
+  margin: 0 auto;
+  padding-bottom: 0;
 }
 
-
-@media (max-width:920px) {
-
+@media (max-width: 920px) {
   .Page-banner {
     padding: 18px;
     height: 450px;
@@ -162,7 +156,7 @@ button {
     width: 50% !important;
   }
   .courses {
-justify-content: space-between;
+    justify-content: space-between;
   }
   .course {
     width: 32%;
@@ -176,10 +170,9 @@ justify-content: space-between;
     width: 30%;
     margin: 10px;
   }
-
 }
 
-@media (max-width:540px) {
+@media (max-width: 540px) {
   .Page-banner {
     flex-direction: column;
     padding: 10px;
@@ -200,11 +193,11 @@ justify-content: space-between;
   .banner-content p {
     font-size: 16px;
   }
-.btns {
-  width: 100%;
-  justify-content: space-evenly;
-  align-items: baseline;
-}
+  .btns {
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: baseline;
+  }
   .banner-content .primary-btn {
     padding: 5px;
     border-radius: 20px;
@@ -227,11 +220,10 @@ justify-content: space-between;
   }
   .feature-container > div {
     width: 100% !important;
-    margin-top: 10px ;
+    margin-top: 10px;
   }
   .courses {
     flex-direction: column;
-  
   }
   .course {
     width: 100%;
@@ -244,7 +236,7 @@ justify-content: space-between;
   }
   .acheivement {
     width: 42%;
-     margin: 10px;
+    margin: 10px;
   }
   .acheivement p {
     font-size: 14px;
