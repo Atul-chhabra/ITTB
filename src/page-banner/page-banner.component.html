@@ -2,9 +2,7 @@
 <div class="Page-banner">
   <section class="banner-area relative" id="home">
     <div class="container">
-      <div
-        class="row d-flex align-items-center justify-content-between"
-      >
+      <div class="row d-flex align-items-center justify-content-between">
         <div class="col-lg-9 col-md-12 banner-content">
           <h1 class="text-uppercase">
             Advance Your Career With Expert SAP Training
@@ -19,9 +17,6 @@
             <a href="#" class="primary-btn">Get Started</a>
             <a href="#" class="primary-btn btn2">Register now</a>
           </div>
-            
-
-         
         </div>
       </div>
     </div>
@@ -88,96 +83,16 @@
 <section class="popular-course-area">
   <div class="title text-center">
     <h1>Popular Courses we offer</h1>
-
   </div>
 
   <div class="courses">
-    <div class="course">
+    <div class="course" *ngFor="let course of courses">
       <div class="course-title">
         <i class="fa-fw far fa-calendar-days" aria-hidden="true"></i>
-        <p>SAP SD</p>
+        <p>{{ course.title }}</p>
       </div>
       <p class="course-desc">
-        SAP SD is a module of the SAP ERP system that manages sales and
-        distribution processes. A typical course covers sales order processing,
-        delivery processing, billing and payment processes, and integration with
-        other modules.
-      </p>
-      <div class="enroll-button">
-        <button
-          class="button2 inquerySide"
-          data-title="Batch Information"
-          data-paragraph="See why 61,640+ Learners trust us and how did they achieve their professional goals by Joining Croma Campus! You also get your Certificate now!"
-        >
-          Enroll Now
-        </button>
-      </div>
-    </div>
-    <div class="course">
-      <div class="course-title">
-        <i class="fa-fw far fa-calendar-days" aria-hidden="true"></i>
-        <p>SAP MM</p>
-      </div>
-      <p class="course-desc">
-        SAP MM (Materials Management) is a module of the SAP ERP system that
-        manages materials procurement, inventory management, and invoice
-        verification. A typical course covers purchasing, inventory management,
-        material valuation and account determination, and integration with other
-        SAP modules.
-      </p>
-      <div class="enroll-button">
-        <button
-          class="button2 inquerySide"
-          data-title="Batch Information"
-          data-paragraph="See why 61,640+ Learners trust us and how did they achieve their professional goals by Joining Croma Campus! You also get your Certificate now!"
-        >
-          Enroll Now
-        </button>
-      </div>
-    </div>
-    <div class="course">
-      <div class="course-title">
-        <i class="fa-fw far fa-calendar-days" aria-hidden="true"></i>
-        <p>SAP HANA</p>
-      </div>
-      <p class="course-desc">
-        SAP HANA is an in-memory, column-oriented, relational database management system that is designed to handle both transactional and analytical processing. It enables real-time data processing, advanced analytics, and applications on a single platform.
-      </p>
-      <div class="enroll-button">
-        <button
-          class="button2 inquerySide"
-          data-title="Batch Information"
-          data-paragraph="See why 61,640+ Learners trust us and how did they achieve their professional goals by Joining Croma Campus! You also get your Certificate now!"
-        >
-          Enroll Now
-        </button>
-      </div>
-    </div>
-    <div class="course">
-      <div class="course-title">
-        <i class="fa-fw far fa-calendar-days" aria-hidden="true"></i>
-        <p>SAP ABAP</p>
-      </div>
-      <p class="course-desc">
-        SAP ABAP (Advanced Business Application Programming) is a programming language used for developing applications and customizing SAP software. It is used to create and modify SAP modules, reports, forms, and workflows. ABAP supports object-oriented programming and integrates with other technologies such as SQL, HTML, and XML.
-      </p>
-      <div class="enroll-button">
-        <button
-          class="button2 inquerySide"
-          data-title="Batch Information"
-          data-paragraph="See why 61,640+ Learners trust us and how did they achieve their professional goals by Joining Croma Campus! You also get your Certificate now!"
-        >
-          Enroll Now
-        </button>
-      </div>
-    </div>
-    <div class="course">
-      <div class="course-title">
-        <i class="fa-fw far fa-calendar-days" aria-hidden="true"></i>
-        <p>SAP FI</p>
-      </div>
-      <p class="course-desc">
-        SAP FI (Financial Accounting) is a module within SAP ERP that manages financial transactions, including general ledger accounting, accounts payable, accounts receivable, and asset accounting. It provides real-time financial data to support financial reporting, decision-making, and auditing.
+        {{ course.desc }}
       </p>
       <div class="enroll-button">
         <button
@@ -197,113 +112,35 @@
   <div class="line"></div>
 
   <div class="acheivements">
-    <div class="acheivement batch-box active">
+    <div
+      class="acheivement batch-box active"
+      *ngFor="let acheivement of achievements"
+    >
       <img
-        alt="user"
-        src="https://raw.githubusercontent.com/Atul-chhabra/angular-9gxojg/main/src/asset/image/experts.png"
-        width="29"
+        alt="{{ acheivement.alt }}"
+        src="{{ acheivement.imgUrl }}"
+        width="35"
         height="45"
       />
-      <p>Trainer Profiles</p>
-      <h4>Industry Experts</h4>
-    </div>
-
-    <div class="acheivement batch-box">
-      <img
-        alt="trainer"
-        src="https://raw.githubusercontent.com/Atul-chhabra/angular-9gxojg/main/src/asset/image/trained.png"
-        width="45"
-        height="45"
-      />
-      <p>Trained Students</p>
-      <h4>10000+</h4>
-    </div>
-
-    <div class="acheivement batch-box">
-      <img
-        alt="industry"
-        src="https://raw.githubusercontent.com/Atul-chhabra/angular-9gxojg/main/src/asset/image/success.png"
-        width="45"
-        height="45"
-      />
-      <p>Success Ratio</p>
-      <h4>100%</h4>
-    </div>
-
-    <div class="acheivement batch-box">
-      <img alt="" src="https://raw.githubusercontent.com/Atul-chhabra/angular-9gxojg/main/src/asset/image/corporate.png" width="35" height="45" />
-      <p>Corporate Training</p>
-      <h4>For India &amp; Abroad</h4>
-    </div>
-
-    <div class="acheivement batch-box">
-      <img
-        alt="abrord"
-        src="https://raw.githubusercontent.com/Atul-chhabra/angular-9gxojg/main/src/asset/image/job.png"
-        width="45"
-        height="45"
-      />
-      <p>Job Assistance</p>
-      <h4>100%</h4>
+      <p>{{ acheivement.title }}</p>
+      <h4>{{ acheivement.desc }}</h4>
     </div>
   </div>
 </div>
-
-
 
 <div class="achievements-section">
   <h3>Our Placement Process</h3>
   <div class="line"></div>
 
   <div class="acheivements">
-    <div class="acheivement batch-box active">
+    <div class="acheivement batch-box active" *ngFor="let carr of curriculum">
       <img
-        alt="user"
-        src="https://raw.githubusercontent.com/Atul-chhabra/angular-9gxojg/main/src/asset/image/experts.png"
-        width="29"
+        alt="{{ carr.alt }}"
+        src="{{ carr.imgUrl }}"
+        width="35"
         height="45"
       />
-   
-      <h4>Placement Trainings</h4>
-    </div>
-
-    <div class="acheivement batch-box">
-      <img
-        alt="trainer"
-        src="https://raw.githubusercontent.com/Atul-chhabra/angular-9gxojg/main/src/asset/image/trained.png"
-        width="45"
-        height="45"
-      />
-
-      <h4>Interview Q & A</h4>
-    </div>
-
-    <div class="acheivement batch-box">
-      <img
-        alt="industry"
-        src="https://raw.githubusercontent.com/Atul-chhabra/angular-9gxojg/main/src/asset/image/success.png"
-        width="45"
-        height="45"
-      />
-
-      <h4>Resume Preparation</h4>
-    </div>
-
-    <div class="acheivement batch-box">
-      <img alt="" src="https://raw.githubusercontent.com/Atul-chhabra/angular-9gxojg/main/src/asset/image/corporate.png" width="35" height="45" />
- 
-      <h4>Mock Interviews</h4>
-    </div>
-
-    <div class="acheivement batch-box">
-      <img
-        alt="abrord"
-        src="https://raw.githubusercontent.com/Atul-chhabra/angular-9gxojg/main/src/asset/image/job.png"
-        width="45"
-        height="45"
-      />
-
-      <h4>Job Placements</h4>
+      <p>{{ carr.title }}</p>
     </div>
   </div>
 </div>
